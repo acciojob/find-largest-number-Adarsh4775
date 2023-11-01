@@ -16,3 +16,9 @@ function findLargest(a, b, c) {
     return c; 
   }
 }
+
+const a = parseFloat(prompt("Enter the First Number"));
+const b= parseFloat(prompt("Enter the Second Number"));
+const c = parseFloat(prompt("Enter the Third Number"));
+
+alert(findLargest(a, b, c)); 
