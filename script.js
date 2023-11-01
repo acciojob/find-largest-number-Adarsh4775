@@ -9,12 +9,12 @@ function findLargest(a, b, c) {
       return b; 
     }
     return b; 
-  } else {
+  }  
     if (a === b) {
       return c;
     }
     return c; 
-  }
+   
 }
 
 const a = parseFloat(prompt("Enter the First Number"));
